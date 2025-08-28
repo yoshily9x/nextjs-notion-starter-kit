@@ -8,8 +8,8 @@
 }
 
 .dark-mode .notion-code {
-  background-color: rgba(17, 24, 39, 1);
-  border-color: rgba(55, 65, 81, 1);
+  background-color: rgba(25, 25, 25, 1);
+  border-color: rgba(25, 25, 25, 1);
 }
 .notion code {
   color: rgba(31, 41, 55, 1);
@@ -23,14 +23,14 @@
 }
 
 .dark-mode .notion .notion-inline-code {
-  background: rgb(71, 76, 80) !important;
+  background: rgb(25, 25, 25) !important;
   color: #ff4081;
   padding: 0.2em 0.4em !important;
 }
 
 .notion .notion-inline-code {
   color: #ff4081;
-  background: rgba(127, 122, 107, 0.1) !important;
+  background: rgba(25, 25, 25, 0.1) !important;
   padding: 0.2em 0.4em !important;
 }
 

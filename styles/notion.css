@@ -194,8 +194,7 @@
 .notion-page-cover-wrapper,
 .notion-page-cover-wrapper span,
 .notion-page-cover-wrapper img {
-  max-width: 1200px !important;
-  border-radius: 24px;
+  border-radius: 0px;
 }
 
 .notion-page-cover-wrapper {
@@ -358,14 +357,11 @@
 }
 
 .notion-header {
-  background: hsla(0, 0%, 100%, 0.8);
-  backdrop-filter: saturate(180%) blur(16px);
+  background: rgba(255, 255, 255, 1);
 }
 
 .dark-mode .notion-header {
-  background: transparent;
-  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
-  backdrop-filter: saturate(180%) blur(20px);
+  background: rgba(25, 25, 25, 1);
 }
 
 /* Workaround for Firefox not supporting backdrop-filter yet */
